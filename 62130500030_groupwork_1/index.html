@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Basic Vue Js - HelloWorld App</title>
-
+  
   <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
   <!-- Using via Google Web Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -21,14 +21,79 @@
 </head>
 
 <body>
-  <div id="app" class="h-screen max-w-2xl bg-indigo-200 mx-auto">
+  <div id="app"
+    class="h-screen  mx-auto bg-fixed  bg-center bg-gradient-to-r  from-pink-400 via-indigo-500 to-blue-800">
+    <div class="py-96 text-center text-9xl  text-gray-100  ">
+      <p>My taste in music</p>
+    </div>
+  </div>
 
-    <p class="text-pink-500 text-lg uppercase traking-wide font-semibold">Introduction</p>
+  <div class="h-72 max-w-full bg-white mx-auto text-center pt-10 ">
+    <p class="text-6xl">6 of these is my favorite music of all time</p>
+    <p class="text-2xl pt-8">Want to know what my music sound like?</p>
+    <p class="text-2xl pt-8">Just click the picture to redirect to youtube/spotify!</p>
+  </div>
+
+  <div class="flex justify-center font-mono ">
     
-    <h1>Tailwind stories.</h1>
-    
+    <div class="bg-black w-96 h-96 mx-5 hover:shadow-lg rounded-xl ">
+      <a class="w-96 h-96 flex justify-center  rounded-xl" href="https://www.youtube.com/watch?v=_f_BnneFanM">
+        <img class="w-96 h-96 hover:opacity-20 absolute rounded-xl"src="https://i.scdn.co/image/ab67706c0000bebbcb04e643964a8688b33dcbc7">
+        <p class="pt-36 text-white text-4xl">DOOM Eternal</p>
+        
+      </a>  
     </div>
 
+      <div class="bg-black w-96 h-96 mx-5 hover:shadow-lg rounded-xl">
+        <a class="w-96 h-96 flex justify-center rounded-xl" href="https://open.spotify.com/playlist/1vsRFqIKhX7xmXmouLo3zS?nd=1">
+          <img class="w-96 h-96 hover:opacity-20 absolute rounded-xl"src="https://i.scdn.co/image/ab67706c0000bebb1fde901c36fc5cff8eebe420">
+          <p class="pt-36 text-white text-4xl">Boomer playlist</p>
+        </a>  
+      </div>
+
+    <div class="bg-black w-96 h-96 mx-5 hover:shadow-lg rounded-xl ">
+      <a class="w-96 h-96 flex justify-center rounded-xl" href="https://www.youtube.com/watch?v=qo3ewdnBDnA">
+        <img class="w-96 h-96 hover:opacity-20 absolute rounded-xl"src="https://lite-images-i.scdn.co/image/ab67706c0000da84d56d9d0c74c1a6c520237b7f">
+        <p class="pt-36 text-white text-4xl">Hotline miami</p>
+      </a>  
+    </div>  
+  </div>
+
+  <div class="flex justify-center pt-10 font-mono">
+    
+    <div class="bg-black w-96 h-96 mx-5 hover:shadow-lg rounded-xl">
+      <a class="w-96 h-96 flex justify-center rounded-xl" href="https://www.youtube.com/watch?v=CRzrvgW6RsE">
+        <img class="w-96 h-96 hover:opacity-20 absolute rounded-xl"src="https://i.scdn.co/image/ab67616d0000b2738399047ff71200928f5b6508">
+        <p class="pt-36 text-white text-4xl">AC/DC </p>
+      </a>  
+    </div>
+
+      <div class="bg-black w-96 h-96 mx-5 hover:shadow-lg rounded-xl">
+        <a class="w-96 h-96 flex justify-center rounded-xl" href="https://www.youtube.com/watch?v=H8w_Q57RQJc">
+          <img class="w-96 h-96 hover:opacity-20 absolute rounded-xl"src="https://i.scdn.co/image/ab67616d0000b2735d9f5b9e363208a18ada66b5">
+          <p class="pt-36 text-white text-4xl">Va11-hall-A</p>
+        </a>  
+      </div>
+
+    <div class="bg-black w-96 h-96 mx-5 hover:shadow-lg rounded-xl">
+      <a class="w-96 h-96 flex justify-center rounded-xl" href="https://www.youtube.com/watch?v=IS6n2Hx9Ykk">
+        <img class="w-96 h-96 hover:opacity-20 absolute rounded-xl"src="https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32">
+        <p class="pt-36 text-white text-4xl">Led zeppelini</p>
+      </a>  
+    </div>  
+  </div>
+
+  <div class="w-full h-52 bg-black mt-16 px-80 ">
+    <div class=" w-full grid grid-cols-2 pt-10 m-10  gap-3 text-yellow-400 ">
+      <div class="text-2xl"> <p>This web was made by: Thanadol Chuesai </p>
+        <p>No : 62130500030 </p>
+      </div>
+      <div class="text-2xl"> <a href="https://github.com/thanadol29/INT203_62130500030"><img src="images/iconmonstr-github-5-48.png" alt=""></a>
+        <a href="https://github.com/thanadol29/templateint203"><img class="pt-2" src="images/iconmonstr-github-3-48.png" alt=""></a>
+      </div>
+    </div>
+
+  </div>
   <!-- my main.js -->
   <script src="./main.js"></script>
 </body>
